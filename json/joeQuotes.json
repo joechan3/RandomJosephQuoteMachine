@@ -2,13 +2,128 @@
   "quoteCollection": [
     {
       "id": 0,
-      "quote": "Something wise",
-      "author": "Joe Blow"
+      "quote": "It is enough that the people know there was an election. The people who cast the votes decide nothing. The people who count the votes decide everything.",
+      "author": "Joseph Stalin"
     },
     {
       "id": 1,
-      "quote": "Something wise 2",
-      "author": "Joe Schmo"
+      "quote": "If any foreign minister begins to defend to the death a 'peace conference', you can be sure his government has already placed its orders for new battleships and airplanes.",
+      "author": "Joseph Stalin"
+    },
+    {
+      "id": 2,
+      "quote": "Print is the sharpest and the strongest weapon of our party.",
+      "author": "Joseph Stalin"
+    },
+    {
+      "id": 3,
+      "quote": "The writer is the engineer of the human soul.",
+      "author": "Joseph Stalin"
+    },
+    {
+      "id": 4,
+      "quote": "Gratitude is a sickness suffered by dogs.",
+      "author": "Joseph Stalin"
+    },
+    {
+      "id": 5,
+      "quote": "We must let go of the life we have planned, so as to accept the one that is waiting for us.",
+      "author": "Joseph Campbell"
+    },
+    {
+      "id": 6,
+      "quote": "I don't believe people are looking for the meaning of life as much as they are looking for the experience of being alive.",
+      "author": "Joseph Campbell"
+    },
+    {
+      "id": 7,
+      "quote": "Computers are like Old Testament gods; lots of rules and no mercy.",
+      "author": "Joseph Campbell"
+    },
+    {
+      "id": 8,
+      "quote": "When you make the sacrifice in marriage, you're sacrificing not to each other but to unity in a relationship.",
+      "author": "Joseph Campbell"
+    },
+    {
+      "id": 9,
+      "quote": "The privilege of a lifetime is being who you are.",
+      "author": "Joseph Campbell"
+    },
+    {
+      "id": 10,
+      "quote": "Reading is a basic tool in the living of a good life.",
+      "author": "Joseph Addison"
+    },
+    {
+      "id": 11,
+      "quote": "There is no defense against criticism except obscurity.",
+      "author": "Joseph Addison"
+    },
+    {
+      "id": 12,
+      "quote": "A contented mind is the greatest blessing a man can enjoy in this world.",
+      "author": "Joseph Addison"
+    },
+    {
+      "id": 13,
+      "quote": "What sculpture is to a block of marble, education is to the soul.",
+      "author": "Joseph Addison"
+    },
+    {
+      "id": 14,
+      "quote": "A man should always consider how much he has more than he wants.",
+      "author": "Joseph Addison"
+    },
+    {
+      "id": 16,
+      "quote": "What I like about cities is that everything is king size, the beauty and the ugliness.",
+      "author": "Joseph Brodsky"
+    },
+    {
+      "id": 17,
+      "quote": "The surest defense against Evil is extreme individualism, originality of thinking, whimsicality, even-if you will-eccentricity. That is, something that can't be feigned, faked, imitated; something even a seasoned imposter couldn't be happy with.",
+      "author": "Joseph Brodsky"
+    },
+    {
+      "id": 18,
+      "quote": "It would be enough for me to have the system of a jury of twelve versus the system of one judge as a basis for preferring the U.S. to the Soviet Union. I would prefer the country you can leave to the country you cannot.",
+      "author": "Joseph Brodsky"
+    },
+    {
+      "id": 19,
+      "quote": "The poetic notion of infinity is far greater than that which is sponsored by any creed.",
+      "author": "Joseph Brodsky"
+    },
+    {
+      "id": 20,
+      "quote": "Death is the great adventure beside which moon landings and space trips pale into insignificance.",
+      "author": "Joseph Bayly"
+    },
+    {
+      "id": 21,
+      "quote": "Death always waits. The door of the hearse is never closed.",
+      "author": "Joseph Bayly"
+    },
+    {
+      "id": 22,
+      "quote": "Marriage is our last, best chance to grow up.",
+      "author": "Joseph Barth"
+    },
+    {
+      "id": 23,
+      "quote": "In the last analysis sound judgment will prevail.",
+      "author": "Joseph Cannon"
+    },
+    {
+      "id": 24,
+      "quote": "Sometimes in politics one must duel with skunks, but no one should be fool enough to allow skunks to choose the weapons.",
+      "author": "Joseph Cannon"
+    },
+    {
+      "id": 25,
+      "quote": "The day of small nations has long passed away. The day of Empires has come.",
+      "author": "Joseph Chamberlain"
     }
   ]
 }
