@@ -2,16 +2,38 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-  <meta name="description" content="A page for exploring basic HTML documents">
-  <title>Basic HTML document</title>
+  <meta name="description" content="A random quote machine delivering quotes from people named Joseph">
+  <title>Random quotes from people named Joseph.</title>
   </head>
   <body>
-    <h1>Page content</h1>
-    <p>The main page content appears inside the <b>body</b> tag. HTML contains several elements that allow you to properly structure and format your content, which we'll cover later.</p>
-  <script
-            src="https://code.jquery.com/jquery-2.2.3.min.js"
-            integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
-            crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+    <header role="banner">
+      <h1>Random quotes from people named Joseph</h1>
+    </header>
+    <main role="main">  
+      <article role="article">
+        <blockquote>
+          <p></p>
+          <footer><cite></cite></footer>
+        </blockquote>
+        <noscript>
+          <blockquote>A flower cannot blossom without sunshine, and webpages cannot live without JavaScript.<br><b>Please enable JavaScript.</b>
+          <footer>— <cite>The 21<sup>st</sup> Century</cite></footer>
+          </blockquote>
+        </noscript>
+        <button type="button">New Joseph Quote</button>
+        <button type="button">Tweet</button>
+      </article>    
+    </main>
+    <footer role="contentinfo">
+      <p>Written and coded by <a href="https://www.freecodecamp.com/joechan3" target="_blank" title="View Joseph Chan&apos;s freeCodeCamp profile">Joseph Chan</a></p>
+      <a href="https://github.com/joechan3/RandomJosephQuoteMachine" target="_blank" title="View the code for this page on GitHub">GitHub Repo</a>
+    </footer>
+    <!--  jQuery-->
+    <script
+              src="https://code.jquery.com/jquery-2.2.3.min.js"
+              integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+              crossorigin="anonymous"></script>
+    <!--My JavaScript  -->
+    <script src="js/script.js"></script>
   </body>
 </html>
