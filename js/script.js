@@ -1,10 +1,10 @@
-//Test JSON hosted here: https://api.myjson.com/bins/2xkni
+//Test JSON hosted here: https://api.myjson.com/bins/4yntq
 //Same domain location: json/joeQuotes.json
 //Original quotes dataset courtesy of http://thewebminer.com/download
 
 $("document").ready(function() {
   function getNewQuote() {
-    $.getJSON("https://api.myjson.com/bins/2xkni", function(data) {
+    $.getJSON("https://api.myjson.com/bins/4yntq", function(data) {
 
       //Pick a random whole number between 0 (inclusive) and 
       //the number of quotes available (exclusive)
