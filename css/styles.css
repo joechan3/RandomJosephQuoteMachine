@@ -182,14 +182,28 @@ footer a:focus {
   
   h1+p,
   blockquote>p{
-    font-size: 1.1em;
+    font-size: 1em;
   }
   
   .title{
-    top: 40%;
+    top: 35%;
   }
   
   header[role="banner"] {
   min-height: 20em;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width : 1083px) {
+  h1{
+   font-size: 3.3em; 
+  }
+  
+  h1+p {
+    font-size: 1em;
+  }
+  
+  .title{
+    top: 30%;
   }
 }
