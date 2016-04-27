@@ -32,7 +32,7 @@ $("document").ready(function() {
 
     //Update Twitter button    
     var tweetString = "https://twitter.com/intent/tweet?text=";
-    tweetString += ('"' + jsonQuotes.quoteCollection[randomNumber].quote + '" \u2014 ' + jsonQuotes.quoteCollection[randomNumber].author);
+    tweetString += ('"' + jsonQuotes.quoteCollection[randomNumber].quote + '"' + ' - ' + jsonQuotes.quoteCollection[randomNumber].author);
     $(".twitter-share-button").attr("href", tweetString);
 
 
