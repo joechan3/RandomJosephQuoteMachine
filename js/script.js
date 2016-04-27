@@ -39,7 +39,7 @@ $("document").ready(function() {
   }
 
   //Get collection of quotes
-  $.getJSON("https://api.myjson.com/bins/1r49a", function(data) {
+  $.getJSON("json/joeQuotes.json", function(data) {
     jsonQuotes = data;
     generateQuote();
   });
