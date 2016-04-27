@@ -84,6 +84,7 @@ h1+p {
 
 main{
   background-color:#fff;
+  padding-bottom: 5em;
 }
 
 blockquote {
@@ -124,7 +125,6 @@ blockquote cite {
   text-align: center;
   max-width: 10em;
   margin-top: 15px;
-  margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
 }
