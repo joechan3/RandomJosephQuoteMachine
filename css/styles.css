@@ -1,5 +1,5 @@
 /*----------------------------------Fonts-----------------------------------------------*/
-/*font-family: 'Oxygen', sans-serif;
+/*font-family: 'Roboto', sans-serif;
 /*font-family: 'Ubuntu', sans-serif;
 /*font-family: 'Bitter', serif;
 */
@@ -10,3 +10,146 @@
 /*Teal 2: #067F50
 */
 
+body {
+  font-family: 'Bitter', serif;
+  color: #000;
+/*  background-color: #7D3493;*/
+}
+
+
+
+header[role="banner"] {
+  min-height: 25em;
+  position:relative;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d3493+0,ffffff+100 */
+  background: #7d3493; /* Old browsers */
+  background: -moz-linear-gradient(top,  #7d3493 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #7d3493 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #7d3493 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d3493', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+header, footer[role="contentinfo"]{
+  text-align:center;
+}
+
+.title{
+  letter-spacing: 0.5em;
+  color: #fff;
+  text-shadow:2px 2px 2px #000000;
+  display: block;
+  position: absolute;
+  left:50%;
+  top:50%;
+  -ms-transform: translateX(-50%)translateY(-50%);
+  -o-transform: translateX(-50%)translateY(-50%);
+  transform: translateX(-50%)translateY(-50%);
+  
+}
+
+h1{
+  font-family: 'Arvo', serif;
+  font-size: 5em;
+  text-transform: uppercase;
+}
+
+h1>span{
+  color:#FFBA19;
+}
+
+h1+p{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: capitalize;
+  font-size: 1.75em;
+}
+
+main {
+/*  background-color: #14CC84; */
+}
+
+
+
+blockquote{
+  border-left: none;
+  text-align: center;
+}
+
+blockquote>p{
+  font-size:2.2em;
+  letter-spacing: 1.25px;
+}
+
+blockquote cite{
+  color: #000;
+}
+
+.btn{
+  display: block;
+  min-width: 10em;
+  margin: 0 auto;
+  background-color: #14CC84;
+  border: none;
+  border-radius: 20px;
+  outline:none;
+  
+}
+
+.btn:link,
+.btn:visited,
+.btn:hover,
+.btn:active,
+.btn:focus{
+  background-color: #067F50;
+  border: none;
+  outline:none;
+}
+
+.twitter-share-button {
+  display: block;
+  text-align:center;
+  max-width: 10em;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+footer[role="contentinfo"] {
+  min-height: 25em;
+  position: relative;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+25,7d3493+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 25%, #7d3493 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 25%,#7d3493 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 25%,#7d3493 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7d3493',GradientType=0 ); /* IE6-9 */
+
+}
+
+footer a{
+  color: black;
+  text-decoration: underline;
+}
+
+footer a:visited,
+footer a:hover,
+footer a:active,
+footer a:focus{
+  color: black;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+.footerInfo{
+  font-size: 0.85em;
+  position:absolute;
+  bottom: 0%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  
+
+  
+}

@@ -7,47 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A random quote machine delivering quotes from people named Joseph">
     <title>Random quotes from people named Joseph.</title>
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:700|Ubuntu:300|Bitter' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300|Bitter|Arvo:700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 
   <body>
     <header role="banner">
-      <h1>Quote a joe</h1>
-      <p>Random quotes from people named Joseph</p>
+      <div class="title">
+        <h1>Quote a <span>joe</span></h1>
+        <p>Random quotes from people named Joseph</p>
+      </div>
     </header>
-    <main role="main">
-      <article role="article">
-        <blockquote>
-          <p></p>
-          <footer><cite></cite></footer>
-        </blockquote>
-        <noscript>
-          <blockquote>A flower cannot blossom without sunshine, and webpages cannot live without JavaScript.
-            <br><strong>Please enable JavaScript.</strong>
-            <footer>— <cite>The 21<sup>st</sup> Century</cite></footer>
+    <main role="main" class=" container">
+      <article role="article" class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <noscript>
+            <blockquote>
+              <p>A flower cannot blossom without sunshine, and webpages cannot live without JavaScript.
+              <br><strong>Please enable JavaScript.</strong></p>
+              <footer>— <cite>The 21<sup>st</sup> Century</cite></footer>
+            </blockquote>
+          </noscript>
+          <blockquote>
+            <p></p>
+            <footer><cite></cite></footer>
           </blockquote>
-        </noscript>
-        <button type="button">New Joseph Quote</button>
-        <a class="twitter-share-button"
-           data-size="default" 
-           href=""  
-           data-text=""
-           target="_blank">
-          Tweet
-        </a>
+          
+
+            <button class="btn btn-primary" type="button" title="Click for a new quote.">New Joe Quote</button>
+            <a class="twitter-share-button btn btn-primary"
+               data-size="default" 
+               href=""  
+               data-text=""
+               target="_blank"
+               title="Click to tweet this quote.">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              &nbsp;Tweet
+            </a>
+        </div>
+        
       </article>
-    </main>
+    </main><!--.row-->
     <footer role="contentinfo">
-      <p>Coded by <a href="https://www.freecodecamp.com/joechan3" target="_blank" title="View Joseph Chan&apos;s freeCodeCamp profile">Joseph Chan</a></p>
-      <a href="https://github.com/joechan3/RandomJosephQuoteMachine" target="_blank" title="View the code for this page on GitHub">GitHub Repo</a>
+      <div class="footerInfo">
+        <p>Coded by <a href="https://www.freecodecamp.com/joechan3" target="_blank" title="View Joseph Chan&apos;s freeCodeCamp profile">Joseph Chan</a></p>
+        <a href="https://github.com/joechan3/RandomJosephQuoteMachine" target="_blank" title="View the code for this page on GitHub">GitHub Repo</a>
+      </div>
     </footer>
     <!--  jQuery-->
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
     <!--My JavaScript  -->
     <script src="js/script.js"></script>
-    
   </body>
 
 </html>
