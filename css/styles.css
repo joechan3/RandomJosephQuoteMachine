@@ -174,3 +174,22 @@ footer a:focus {
   -moz-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+
+@media only screen and (max-device-width : 767px) {
+  h1{
+   font-size: 3em; 
+  }
+  
+  h1+p,
+  blockquote>p{
+    font-size: 1.1em;
+  }
+  
+  .title{
+    top: 40%;
+  }
+  
+  header[role="banner"] {
+  min-height: 20em;
+  }
+}
