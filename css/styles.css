@@ -1,15 +1,9 @@
 /*----------------------------------Fonts-----------------------------------------------*/
-
-
 /*font-family: 'Roboto', sans-serif;
 /*font-family: 'Ubuntu', sans-serif;
 /*font-family: 'Bitter', serif;
 */
-
-
 /*----------------------------------Color Palette---------------------------------------*/
-
-
 /*Violet: #7D3493
 /*Gold: #FFBA19
 /*Teal: #14CC84 
@@ -29,6 +23,7 @@
 body {
   font-family: 'Bitter', serif;
   color: #000;
+  background-color: #7D3493;
 }
 
 header[role="banner"] {
@@ -85,6 +80,10 @@ h1+p {
   font-family: 'Ubuntu', sans-serif;
   text-transform: capitalize;
   font-size: 1.75em;
+}
+
+main{
+  background-color:#fff;
 }
 
 blockquote {
@@ -165,7 +164,7 @@ footer a:focus {
 }
 
 .footerInfo {
-  font-size: 0.85em;
+  font-size: 0.9em;
   position: absolute;
   bottom: 2.5%;
   left: 50%;
