@@ -20,13 +20,10 @@
   color: #7D3493;
 }
 
-html {
-  background-color: #7D3493;
-}
-
 body {
   font-family: 'Bitter', serif;
   color: #000;
+  background-color: #7D3493;
 }
 
 header[role="banner"] {
