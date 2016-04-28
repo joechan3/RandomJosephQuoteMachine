@@ -84,7 +84,7 @@ h1+p {
 
 main{
   background-color:#fff;
-  padding-bottom:1px;
+  /*padding-bottom:1px;*/
 }
 
 blockquote {
@@ -130,7 +130,7 @@ blockquote cite {
 }
 
 footer[role="contentinfo"] {
-  margin-top: -1px;
+  /*margin-top: -1px;*/
   min-height: 25em;
   position: relative;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+25,7d3493+100 */
