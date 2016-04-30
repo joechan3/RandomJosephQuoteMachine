@@ -26,7 +26,7 @@ body {
 }
 
 header[role="banner"] {
-  min-height: 25em;
+  min-height: 18em;
   position: relative;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d3493+0,ffffff+75,ffffff+100 */
   background: #7d3493;
@@ -51,18 +51,11 @@ footer[role="contentinfo"] {
 }
 
 .title {
+  min-width: 80%;
   letter-spacing: 0.5em;
   color: #fff;
   text-shadow: 2px 2px 2px #000000;
   display: block;
-  position: absolute;
-  left: 50%;
-  top: 35%;
-  -ms-transform: translateX(-50%)translateY(-50%);
-  -o-transform: translateX(-50%)translateY(-50%);
-  -webkit-transform: translateX(-50%)translateY(-50%);
-  -moz-transform: translateX(-50%)translateY(-50%);
-  transform: translateX(-50%)translateY(-50%);
 }
 
 h1 {
@@ -89,6 +82,8 @@ main{
 blockquote {
   border-left: none;
   text-align: center;
+/*  background-color:#7D3493;*/
+  min-height: 18.75em;
 }
 
 blockquote>p {
@@ -123,14 +118,13 @@ blockquote cite {
   display: block;
   text-align: center;
   max-width: 10em;
-  margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
 footer[role="contentinfo"] {
   margin-top: -2px;
-  min-height: 25em;
+  min-height: 18em;
   position: relative;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+25,7d3493+100 */
   background: #ffffff;
@@ -186,25 +180,19 @@ footer a:focus {
     font-size: 1em;
   }
   
-  .title{
-    top: 35%;
+  header[role="banner"],
+  footer[role="contentinfo"]{
+  min-height: 16em;
   }
   
-  header[role="banner"] {
-  min-height: 20em;
+  blockquote {
+  min-height: 11.5em;
   }
+
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width : 1083px) {
-  h1{
-   font-size: 3.3em; 
-  }
-  
-  h1+p {
-    font-size: 1em;
-  }
-  
-  .title{
-    top: 30%;
+@media only screen and (max-device-height : 360px) {
+    blockquote {
+    min-height: 7.5em;
   }
 }
