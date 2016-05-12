@@ -1,7 +1,7 @@
 # Quote a Joe
 
 Quote a Joe displays random quotes from people named Joseph.
-[https://joechan3.github.io/RandomJosephQuoteMachine](https://github.com/joechan3/RandomJosephQuoteMachine)
+[https://joechan3.github.io/RandomJosephQuoteMachine](https://joechan3.github.io/RandomJosephQuoteMachine/)
 
 ## Getting Started
 
