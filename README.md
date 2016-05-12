@@ -33,4 +33,5 @@ There are no special installation instructions to use this app.
 * [Animate.css](https://daneden.github.io/animate.css/)
 * [Original quotes dataset by The Web Miner](http://thewebminer.com/download)
 * [JSON Editor Online](http://www.jsoneditoronline.org/)
+* [Favicon made by Zurb from Flaticon](http://www.flaticon.com/authors/zurb)
 
