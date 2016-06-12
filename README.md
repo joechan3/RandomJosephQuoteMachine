@@ -11,6 +11,7 @@ Quote a Joe displays random quotes from people named Joseph.
 * jQuery
 * Bootstrap
 * Brackets
+* JSLint
 
 ## Authors
 
